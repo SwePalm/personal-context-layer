@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "vaultPath": "./vault",
+  "sync": {
+    "remote": "origin",
+    "branch": "main"
+  }
+}

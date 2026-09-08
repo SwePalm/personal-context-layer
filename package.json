@@ -1,0 +1,22 @@
+{
+  "name": "personal-context-layer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first, agent-facing context ledger for knowledge work.",
+  "bin": {
+    "pctx": "bin/pctx.mjs"
+  },
+  "scripts": {
+    "start": "node src/mcp-server.mjs",
+    "test": "node --test",
+    "verify": "node scripts/verify.mjs",
+    "doctor": "node scripts/doctor.mjs",
+    "setup": "node scripts/deploy.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "install-skill": "node scripts/install-skill.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "project": {
+    "schema_version": 1,
+    "id": "prj_example-research",
+    "slug": "example-research",
+    "name": "Example Research",
+    "purpose": "Test a durable research workflow across connected and detached AI clients.",
+    "aliases": [
+      "research example"
+    ]
+  },
+  "current_brief": {
+    "id": "evt_example_brief",
+    "type": "brief",
+    "status": "accepted",
+    "title": "Compare context handoffs between AI applications",
+    "summary": "Use compact project context to orient a detached chat without treating it as authoritative storage."
+  },
+  "active_decisions": [],
+  "open_questions": [
+    {
+      "id": "evt_example_question",
+      "type": "question",
+      "status": "open",
+      "subject": "detached-context-sufficiency",
+      "title": "Is compact context sufficient for a useful detached chat?",
+      "summary": "Observe whether the model needs full event bodies before expanding the export contract."
+    }
+  ],
+  "terminology": [],
+  "reusable_methods": [],
+  "recent_events": [],
+  "event_count": 2
+}

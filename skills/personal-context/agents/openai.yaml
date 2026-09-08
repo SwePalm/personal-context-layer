@@ -1,0 +1,6 @@
+interface:
+  display_name: "Personal Context"
+  short_description: "Discover and preserve reusable project knowledge"
+  default_prompt: "Use $personal-context to discover relevant existing work, load the right project, and preserve durable outcomes consistently."
+policy:
+  allow_implicit_invocation: true

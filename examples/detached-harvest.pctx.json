@@ -1,0 +1,31 @@
+{
+  "project": "prj_example-research",
+  "source_app": "ChatGPT",
+  "source_conversation": "detached-context-experiment-2026-09-08",
+  "events": [
+    {
+      "type": "learning",
+      "title": "Compact context supported the detached conversation",
+      "summary": "The supplied brief, open question, and recent event summaries were sufficient to continue the research without loading complete event bodies.",
+      "details": "The model kept stored context separate from new conclusions and requested no additional history during this experiment.",
+      "status": "accepted",
+      "tags": [
+        "detached-client",
+        "context-export"
+      ],
+      "sensitivity": "private"
+    },
+    {
+      "type": "question",
+      "subject": "detached-handoff-friction",
+      "title": "Which manual handoff step causes the most friction?",
+      "summary": "Observe whether file export, upload, harvest download, or local ingestion is the first step worth automating.",
+      "status": "open",
+      "tags": [
+        "detached-client",
+        "workflow"
+      ],
+      "sensitivity": "private"
+    }
+  ]
+}
